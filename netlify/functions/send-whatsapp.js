@@ -42,7 +42,7 @@ exports.handler = async (event) => {
     const message = `🔥 حجز جديد - ليفيل لوكيشن\n\nالاسم: ${name}\nالموبايل: ${phone}\nالتاريخ: ${date}\nالساعة: ${time}\nطريقة الحجز: ${payment}`;
 
     // WhatsApp Business API credentials
-    const token = 'EAAZAczgzRxlQBRfkm9KA0WWJJzSXDmEWt8gAZCLafZC9cn4styABMqZCfUZCB4TDCJdFqH0vIivLYzoFjAXh7dt9lMZBQhFSQvtYVsP7fmmVfXZCZAPheWsA0YIPEu46aZCIEJEyaBfD4mpBI3hBoRzjesIMZA4k3d8Ksfdcu1JX9YBBnVe3qZAXcpGCQkZAVRGi6JDOy8nrystmXWoVNJDHIjJ1pRZABhhu1iJg2GqM3EjFxgzymF1ckFYX2ASlKZC5iHpyZCXKpsZD';
+    const token = 'EAAZAczgzRxlQBRdrh3YhVoAcHTcvwN6TjuCQ5aagCosGO79ED5XwySDd1IgNyhspaIYOu1cWPAT7Sm6J1lGVAqdKry0HJsuIiyAPPfoLobWic1Nk4ZBZCu4a8zwQ5RGmu7YZCZCvCXla51XKUsxKso775riMO18McNwglz2cLR1PgrXSRmQXXMMad8WJXZAgNuZAlVLXMZA9KOJbCNbP7ZCOY9IaaQFPb61MdBmycu3UIzTEiwzMbwfZAwFYN5sfxn7Ui7btZCo9irmhP16v4CnwnMqfyDlYHvukiTZCdAZDZD';
     const phoneNumberId = '1141873642344210';
     const yourWhatsapp = '201065234640';
 
